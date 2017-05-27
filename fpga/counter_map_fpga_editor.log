@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.87xd
+#Current Working Directory:
+#:D   C:\Users\bruno.lerner\Desktop\Microproc\teste
+#Date/Time:
+#:T   Thu May 25 21:37:49 2017
+#------------------------------
+	#Reading counter_map.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\13.4\ISE_DS\ISE\.
+	#   "counter" is an NCD, version 3.2, device xc6slx16, package csg324, speed -2
+	#Design creation date: 2017.05.26.00.31.20
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

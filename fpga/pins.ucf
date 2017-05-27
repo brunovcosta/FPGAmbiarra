@@ -1,0 +1,20 @@
+NET "BOTAO<0>" LOC = "P4";
+NET "BOTAO<1>" LOC = "F6";
+NET "BOTAO<2>" LOC = "E4";
+NET "BOTAO<3>" LOC = "F5";
+
+NET "SWITCH<3>" LOC = "D14";
+NET "SWITCH<2>" LOC = "E12";
+NET "SWITCH<1>" LOC = "F12";
+NET "SWITCH<0>" LOC = "V13";
+
+
+NET "LED<0>" LOC = "E13";
+NET "LED<1>" LOC = "C14";
+NET "LED<2>" LOC = "C4";
+NET "LED<3>" LOC = "A4";
+
+NET "HDR<0>" LOC = "N17";
+NET "HDR<1>" LOC = "M18";
+NET "HDR<2>" LOC = "A3";
+NET "HDR<3>" LOC = "L15";
