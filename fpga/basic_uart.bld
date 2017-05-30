@@ -1,0 +1,168 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx16-csg324-2
+basic_uart.ngc basic_uart.ngd
+
+Reading NGO file "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/basic_uart.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "pins.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET led(0) LOC = "E13";> [pins.ucf(1)]:
+   NET "led(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(0) LOC = "E13";> [pins.ucf(1)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(1) LOC = "C14";> [pins.ucf(2)]:
+   NET "led(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(1) LOC = "C14";> [pins.ucf(2)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(2) LOC = "C4";> [pins.ucf(3)]:
+   NET "led(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(2) LOC = "C4";> [pins.ucf(3)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(3) LOC = "A4";> [pins.ucf(4)]:
+   NET "led(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(3) LOC = "A4";> [pins.ucf(4)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(4) LOC = "N17";> [pins.ucf(5)]:
+   NET "led(4)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(4) LOC = "N17";> [pins.ucf(5)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(5) LOC = "M18";> [pins.ucf(6)]:
+   NET "led(5)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(5) LOC = "M18";> [pins.ucf(6)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(6) LOC = "A3";> [pins.ucf(7)]:
+   NET "led(6)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(6) LOC = "A3";> [pins.ucf(7)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET led(7) LOC = "L15";> [pins.ucf(8)]:
+   NET "led(7)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET led(7) LOC = "L15";> [pins.ucf(8)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net reset_btn loc=N4;> [pins.ucf(18)]:
+   NET "reset_btn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net reset_btn loc=N4;> [pins.ucf(18)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net pmod_1 loc=T3;> [pins.ucf(20)]: NET
+   "pmod_1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net pmod_1 loc=T3;> [pins.ucf(20)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <net pmod_2 loc=R3;> [pins.ucf(21)]: NET
+   "pmod_2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<net pmod_2 loc=R3;> [pins.ucf(21)]' could not be found and so the Locate
+   constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET sys_clk TNM_NET = sys_clk_pin;>
+   [pins.ucf(23)]: NET "sys_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_sys_clk_pin = PERIOD
+   sys_clk_pin 100000 kHz;> [pins.ucf(24)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'sys_clk_pin'.
+
+ERROR:ConstraintSystem:59 - Constraint <NET sys_clk LOC = "K15";>
+   [pins.ucf(25)]: NET "sys_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET sys_clk LOC = "K15";> [pins.ucf(25)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:191 - The TNM 'sys_clk_pin', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMS and cannot be actively
+   used by the referencing Period constraint 'TS_sys_clk_pin'. If clock manager
+   blocks are directly or indirectly driven, a new TNM constraint will not be
+   derived even though the referencing constraint is a PERIOD constraint unless
+   an output of the clock manager drives flip-flops, latches or RAMs. This TNM
+   is used in the following user PERIOD specification:
+   <TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;> [pins.ucf(24)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;> [pins.ucf(24)]
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    13
+  Number of warnings:  15
+
+Total memory usage is 189076 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "basic_uart.bld"...

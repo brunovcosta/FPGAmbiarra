@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.xst" -ofn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx16-csg324-2 "LOOPBACK.ngc" LOOPBACK.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx16-csg324-2 "LOOPBACK.ngc" LOOPBACK.ngd  
+xst -intstyle ise -ifn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.xst" -ofn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.syr" 
+xst -intstyle ise -ifn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.xst" -ofn "C:/Users/Bruno Vieira/Desktop/FPGAmbiarra/fpga/LOOPBACK.syr" 
