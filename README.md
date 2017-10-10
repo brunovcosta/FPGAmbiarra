@@ -22,6 +22,10 @@ TODO
 ```
 TODO
 ```
+### Arduino code
+
+Codigo que escaneia todos os dispositivos conectados a alguma rede e lista os MAC Address.
+Se o MAC Address especificado no codigo for encontrado nessa lista, um sinal era enviado para o protoboard e acende o LED
 
 ## Requisitos
 Requisitos para rodar toda a stack de coisas nesse projeto
@@ -36,5 +40,5 @@ Requisitos para rodar toda a stack de coisas nesse projeto
 ## Membros
 
 - Bruno V. Costa
-- Bruno B. Lerner
-- Lucas Ricarte
+- [Bruno B. Lerner](https://github.com/BrunoLerner)
+- [Lucas Ricarte](https://github.com/lucasrrt)
